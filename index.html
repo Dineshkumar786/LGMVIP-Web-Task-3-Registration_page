@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="row">
+        <h2 class="title_name">Registration Page </h2>
+		<div class="inputs">
+			<form action="#">
+				<input type="text" id="name" placeholder="Name" autocomplete="off">
+				<input type="text" id="email" placeholder="Email" autocomplete="off">
+                <input type="text" id="age" placeholder="Age">
+                <input type="text" id="qual" placeholder="Highest Qualification">
+                <input type="text" id="skill" class="skills" placeholder="Enter your skill">
+				<button type="submit" onclick="addData()">SUBMIT</button>
+			</form>
+		</div>
+	</div>
+		<table border="3" id="output">
+			<thead>
+				<tr>
+					<th>Full Name</th>
+					<th>Email</th>
+					<th>Age</th>
+					<th>Qualification</th>
+					<th>Skills</th>
+				</tr>
+			</thead>
+		</table>
+		<script src="script.js">
+</body>
+</html>
